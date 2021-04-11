@@ -1,0 +1,94 @@
+.form_auth_block{
+	display: none;
+    width: 400px;
+    margin: 0 auto;
+    background: none;
+    background-size: cover;
+    border-radius: 4px;
+	color: #3ba361;
+
+}
+.form_auth_block_content{
+  padding-top: 15%;
+}
+.form_auth_block_head_text{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    background: #ffffff;
+    
+}
+.form_auth_block label{
+    display: block;
+    text-align: left;
+    padding: 0px;
+    background: #ffffff;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 30px;
+	color: #3ba361;
+	
+}
+.form_auth_block input{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;  
+  border: 2px solid #3ba361;
+  outline: none;
+}
+
+.form_auth_button{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+	background: #3ba361;
+	color: white;
+	font-weight: 600;
+	
+}
+
+.form_auth_button:hover{
+ 	background: #3b7550;
+ }
+
+#wrong_mail {
+	display: none;
+	color: red;
+	font-size: 15px;
+}
+
+#wrong_pass {
+	display: none;
+	color: red;
+	font-size: 15px;
+}
+
+#its_ie {
+	display: block;
+	color: #3b7550;
+	font-size: 30px;
+	width: 700px;
+    margin: 0 auto;
+    background: none;
+    background-size: cover;
+}
+
+#date_time {
+	color: #3b7550;
+	text-align: center;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	position: fixed;
+	font-size: 25px;
+    font-weight: 700;
+}

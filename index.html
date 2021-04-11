@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Степанов К.Н.</title>
-    </head>
-    <body>
-    </body>
+	<head>
+		<title>Авторизация</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="its_ie">К сожалению, ваш браузер не подходит, пожалуйста попробуйте установить другой</div>
+		<div class="form_auth_block" id="form_auth_block">
+			<div class="form_auth_block_content">
+				<p class="form_auth_block_head_text">Пожалуйста, авторизуйтесь</p>
+				<div class="form_auth_style" >
+					<label>Введите адрес эл. почты</label>
+					<input id="email"  name="auth_email">
+					<div id='wrong_mail'>Некорректный адрес электронной почты</div>
+					<label>Введите пароль</label>
+					<input id = "pass" type="password" name="auth_pass">
+					<div id='wrong_pass'>Некорректный пароль</div>
+					<button class="form_auth_button" name="form_auth_submit" onclick="check_data();">Войти</button>
+				</div>
+			</div>
+		</div>
+		<div id="date_time"></div>
+		<script src="javascript.js"></script>
+	</body>
 </html>
