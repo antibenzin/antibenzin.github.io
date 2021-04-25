@@ -14,10 +14,21 @@
 					<label>Введите адрес эл. почты</label>
 					<input id="email"  name="auth_email">
 					<div id='wrong_mail'>Некорректный адрес электронной почты</div>
+					<div id='non_mail'>Поле не заполнено</div>
 					<label>Введите пароль</label>
 					<input id = "pass" type="password" name="auth_pass">
-					<div id='wrong_pass'>Некорректный пароль</div>
+					<div id='non_pass'>Поле не заполнено</div>
+					<div id='count'>Должно быть минимум 6 символов</div>
+					<div id='numbers'>Должны присутсвовать цифры</div>
+					<div id='upper'>Должны присутсвовать буквы верхнего регистра</div>
+					<div id='letter'>Должны присутсвовать буквы нижнего регистра</div>
+					<div id='spec'>Должны присутсвовать спецсимволы</div>
+					<label>Введите номер телефона</label>
+					<input id="tel" name="auth_tel">
+					<div id='wrong_tel'>Некорректный номер, допустимые форматы: 8xxxxxxxxxx, +7xxxxxxxxxx, 8(xxx)xxxxxxx, +7(xxx)xxxxxxx</div>
+					<div id='non_tel'>Поле не заполнено</div>
 					<button class="form_auth_button" name="form_auth_submit" onclick="check_data();">Войти</button>
+					<div id='success'>Авторизация успешно пройдена</div>
 				</div>
 			</div>
 		</div>
